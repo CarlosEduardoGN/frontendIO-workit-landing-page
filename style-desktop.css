@@ -211,7 +211,7 @@ body{
     left: 529px;
 }
 .circle3{
-    right: 149px;
+    left: 909px;
 }
 
 
@@ -280,6 +280,9 @@ body{
     flex-shrink: 0;
 }
 .guy-picture img{
+    width: 450.287px;
+    height: 453px;
+    flex-shrink: 0;
     position: absolute;
     top: 33px;
     left: 0.14px;
@@ -294,16 +297,15 @@ body{
     bottom: 334px;
 }
 .bethefirst{
+    width: 602px;
     position: absolute;
     top: 64px;
     left: 64.5px;
-    color: var(--white, #FFF);
-    font-feature-settings: 'clig' off, 'liga' off;
     font-family: "Fraunces";
-    font-size: 56px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 600;
-    line-height: 64px; 
+    line-height: 64px;
 }
 .bethefirst-text{
     width: 602px;
