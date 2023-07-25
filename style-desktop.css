@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Fraunces';
-    src: url('./assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('truetype');
+    src: url('./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Manrope';
@@ -17,7 +17,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0px;
 }
 
 
@@ -100,6 +100,7 @@ body{
     top: 146px;
     left: 403px;
     width: 635px;
+    height: 160px;
     color: var(--white, #FFF);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -152,6 +153,11 @@ body{
     position: absolute;
     top: 454px;
     left: 361px;
+}
+.iphone11promax img{
+    width: 715px;
+    height: 427px;
+    flex-shrink: 0;
 }
 
 .meio1{
@@ -302,7 +308,7 @@ body{
     top: 64px;
     left: 64.5px;
     font-family: "Fraunces";
-    font-size: 48px;
+    font-size: 56px;
     font-style: normal;
     font-weight: 600;
     line-height: 64px;

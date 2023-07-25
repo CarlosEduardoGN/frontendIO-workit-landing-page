@@ -99,15 +99,14 @@ body{
 
 .data-tailored{
     position:absolute;
-    padding-left: 70px;
-    padding-right: 70px;
     top: 122px;
     left: 97px;
-    width: 433px;
+    width: 573px;
+    height: 121px;
     color: var(--white, #FFF);
     text-align: center;
     font-family: "Fraunces";
-    font-size: 60px;
+    font-size: 65px;
     font-style: normal;
     font-weight: 600;
     line-height: 60px;
