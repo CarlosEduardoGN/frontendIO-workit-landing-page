@@ -1,0 +1,400 @@
+:root{
+    --dark-purple: #24053E;
+    --ghost-white: #FCF8FF;
+    --eucaplyptus: #44FFA1;
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url('./assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('./assets/fonts/manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width:1440px;
+    height:2492px;
+    background-color: white;
+    z-index: 0;
+}
+
+.topo{
+    width:1440px;
+    height:730px;
+    background-color: var(--dark-purple);
+    border-bottom-left-radius: 100%100px;
+    border-bottom-right-radius: 100%100px;
+}
+
+.workit{
+    color: white;
+    position:absolute;
+    width: 95.762px;
+    height: 24.608px;
+    flex-shrink: 0;
+    top: 57.78px;
+    left: 165.35px;
+
+}
+
+.aneis{
+    position:absolute;
+    width: 95.762px;
+    height: 24.608px;
+    flex-shrink: 0;
+    top: 116.12px;
+    left: 0px;
+
+}
+.aneis-direita{
+    position: absolute;
+    width: 141.703px;
+    height: 112.712px;
+    flex-shrink: 0;
+    top: 314.07px;
+    right: -15px;
+
+}
+.apply{
+    color: var(--white, #FFF);
+    font-family: "Manrope";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    position: absolute;
+    top: 56px;
+    right: 165px;  
+}
+.apply:hover{
+    color: var(--eucaplyptus);
+    cursor: pointer;
+}
+.applyret{
+    width: 130px;
+    height: 3px;
+    background-color: var(--eucaplyptus);
+    position: absolute;
+    top: 88px;
+    right: 165px;  
+}
+
+
+.data-tailored{
+    position:absolute;
+    top: 146px;
+    left: 403px;
+    width: 635px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Fraunces";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 100% */
+}
+
+.dataret{
+    width: 250px;
+    height: 3px;
+    flex-shrink: 0;
+    background-color: var(--eucaplyptus);
+    position: absolute;
+    top: 226px;
+    left: 645px;  
+}
+
+.learnmore{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 343px;
+    left: 640px;
+    width: 161px;
+    height: 61px;
+    flex-shrink: 0;
+    background-color: var(--eucaplyptus);
+    color: var(--dark-purple, #24053E);
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+.learnmore:hover{
+    color: var(--eucaplyptus);
+    background-color: var(--dark-purple);
+    cursor: pointer;
+    border: solid 2px var(--eucaplyptus);
+}
+
+
+.iphone11promax{
+    position: absolute;
+    top: 454px;
+    left: 361px;
+}
+
+.meio1{
+    z-index: -1;
+    position: absolute;
+    top: 540px;
+    width:1440px;
+    height:226px;
+    background-color: var(--ghost-white);
+}
+
+.meio2{
+    z-index: -1;
+    position: relative;
+    background-color: ;
+    top: 0px;
+    width:1440px;
+    height:734px;
+    background-color: var(--ghost-white);
+    border-bottom-left-radius: 100%100px;
+    border-bottom-right-radius: 100%100px;
+}
+
+.from1to3{
+    width: 1114px;
+    height: 308px;
+    flex-shrink: 0;
+    position:absolute;
+    top: 255px;
+    left: 165px;
+}
+
+.circle1, .circle2, .circle3 {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30.5px;
+    border: 1px solid var(--davys-grey, #584D62);
+    color: var(--dark-purple, #24053E);
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 0px;
+}
+
+.circle1{
+    left: 149px;
+}
+.circle2{
+    left: 529px;
+}
+.circle3{
+    right: 149px;
+}
+
+
+
+.actionable, .data-driven, .always{
+    position:absolute;
+    width: 354px;
+    top:112px;
+    color: var(--dark-purple, #24053E);
+    text-align: center;
+    font-family: Fraunces 144pt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; 
+}
+.actionable{
+    left: 0px;
+}
+.data-driven{
+    left: 380px;
+}
+.always{
+    left:760px;
+}
+.actionable-text, .data-driven-text, .always-text{
+    position: absolute;
+    top: 180px;
+    color: var(--dark-purple, #24053E);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 354px;
+}
+.actionable-text{
+    left:0px;
+}
+.data-driven-text{
+    left:380px;
+}
+.always-text{
+    left:760px;
+}
+
+
+
+.baixo{
+    width:1440px;
+    height:1030px;
+    background-color: white;   
+}
+
+.guy-picture{
+    position: absolute;
+    background-color: var(--eucaplyptus);
+    border-radius: 50%;
+    overflow: hidden;
+    left: 162.86px;
+    bottom: 434px;
+    width: 450.287px;
+    height: 453px;
+    flex-shrink: 0;
+}
+.guy-picture img{
+    position: absolute;
+    top: 33px;
+    left: 0.14px;
+}
+.bottomret{
+    width: 730px;
+    height: 413px;
+    flex-shrink: 0;
+    background: var(--dark-purple);
+    position: absolute;
+    left: 545px;
+    bottom: 334px;
+}
+.bethefirst{
+    position: absolute;
+    top: 64px;
+    left: 64.5px;
+    color: var(--white, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Fraunces";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+}
+.bethefirst-text{
+    width: 602px;
+    position: absolute;
+    top: 160px;
+    left:64px;
+    color: var(--white, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.bethefirst-button{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 288px;
+    left:64px;
+    color: var(--dark-purple, #24053E);
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+    width: 190px;
+    height: 61px;
+    flex-shrink: 0;
+    background-color: var(--eucaplyptus);
+}
+.bethefirst-button:hover{
+    color: var(--eucaplyptus);
+    background-color: var(--dark-purple);
+    cursor: pointer;
+    border: solid 2px var(--eucaplyptus);
+}
+.midias{
+    position: absolute;
+    right: 663px;
+    bottom: 110px;
+    width: 116px;
+    height: 102.224px;
+    flex-shrink: 0;
+}
+
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
